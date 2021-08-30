@@ -6,7 +6,7 @@ const compression = require("compression");
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
 mongoose.connect(MONGODB_URI);
 
-const PORT = 3000;
+const PORT = 4000;
 
 const app = express();
 
